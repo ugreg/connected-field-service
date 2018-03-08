@@ -15,6 +15,8 @@ The goal of this repo is to give you everything you need to set up a Connected F
 | kjhkjh | kjh | khjkhj |
 | :- | :- | :- |
 | What computers speak. | Worlds information. | Application Programming Interface. |
+| kjhkjh | kjh | khjkhj |
+| What computers speak. | Worlds information. | Application Programming Interface. |
 
 ## Finished Product
 
