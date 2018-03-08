@@ -19,38 +19,38 @@ The goal of this repo is to give you everything you need to set up a Connected F
 ## Step 1: Provision Dynamics 365
 
 
-1.	From a Web Browser on your computer, visit the [Dynamics 365 for Field Service home page](https://www.microsoft.com/en-us/dynamics365/field-service.png)
+1.	From a Web Browser on your computer, visit the [Dynamics 365 for Field Service home page](https://www.microsoft.com/en-us/dynamics365/field-service.png) and click the `START FREE >` button.
 
-<img src="imgs/provision-dyn-field-service-homepage.png">
+  <img src="imgs/provision-dynfs-homepage.png">
 
-2.	Click Try It GREG- redirects you to the overview page where you must click “Start Free” and might want to direct partner to use the trail for development purposes?
-Prefer take the P20 approach and give the workshops attendees access to a dummy account in CRM so they can avoid the CRM setup?? But need to verify if multiple account approach does not have implications, naming and login issues
-Prereq is to have the attendees config their environments
+2. Start your digital transformation!
+  - `A` Select the Field Service app if it is not selected already
+  - `B` Fill out the user information form
 
-3.	Fill Out Form  GREG- revise lab with additional screenshots
+  <img src="imgs/provision-dynfs-fsapp-form.png">
 
-4.	Click Just One More Step
-5.	Fill Out Form
+3.	Click Just One More Step
+4.	Fill Out Form
 
-6.	Click Create My Account
+5.	Click Create My Account
 
-7.	Enter Your Phone Number
+6.	Enter Your Phone Number
 
-8.	Click Text Me
+7.	Click Text Me
 
-9.	Enter Your Validation Code You Received
+8.	Enter Your Validation Code You Received
 
-10.	NOTE: Sometimes the login prompt is being shown directly after this step.
+9.	NOTE: Sometimes the login prompt is being shown directly after this step.
 Please log-in the newly created user using the User ID created on the previous step (for example, admin@XXXX.onmicrosoft.com)
 NOTE: If the log-in screen fails with a message that the user can’t be found in the system, please wait for a few seconds and try to login again
 
-11.	Click Next
+10.	Click Next
 
-12.	Write Down Your Organization Name and Administrator Username and Password
+11.	Write Down Your Organization Name and Administrator Username and Password
 
-13.	Click Set up. NOTE: Login invitation might appear on this step as well, please login using your newly created account
+12.	Click Set up. NOTE: Login invitation might appear on this step as well, please login using your newly created account
 
-14.	Select Field Service
+13.	Select Field Service
 
 15.	Click Complete Setup
 
