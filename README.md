@@ -1,13 +1,16 @@
 
-<img src="imgs/md/user.svg">
+<img src="imgs/md/dyn-logo.png">
 
-# Connected Field Service
+# Intro to Dynamics 365 Connected Field Service
 Awesome description
 
-# Concepts
-| <p align="center"><img src="imgs/md/code-file.svg" width="64"></p> [C# Language Idioms](Assets/HoloToolkit/Input/README.md) | <p align="center"><img src="imgs/md/resources.svg" width="64"></p> [.NET Resource Management](Assets/HoloToolkit/Sharing/README.md) | <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [Generics](Assets/HoloToolkit/SpatialMapping/README.md) | <p align="center"><img src="imgs/md/linq.svg" width="64"></p> [LINQ](Assets/HoloToolkit/SpatialUnderstanding/README.md) | <p align="center"><img src="imgs/md/exception.svg" width="64"></p> [Exceptions Practices](Assets/HoloToolkit/SpatialUnderstanding/README.md) |
+# Goals
+| <p align="center"><img src="imgs/md/code-file.svg" width="64"></p> [1. Provision Dynamics 365](Assets/HoloToolkit/Input/README.md) | <p align="center"><img src="imgs/md/resources.svg" width="64"></p> [2. Provision Azure Trail](Assets/HoloToolkit/Sharing/README.md) | <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [3. Setup MX Chip](Assets/HoloToolkit/SpatialMapping/README.md) |
 | :- | :- | :- | :- | :- |
-| Items 1 - 10 Common language expressions. Building blocks for algorithims and types. Important even in managed environments. | Items 11 - 17. Performance testing and requirements check. | Items 18 - 28. Replaces `System.Object` and `cast`. Great programming expression. | Items 29 - 44.  How the compiler maps query to methods. Delegates and expression tress too. | Items 45 - 50. Debuawg like a 1337 elite haxor BOSS. |
+| 1 | 2 | 3
+| <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [4. Setup MX Chip](Assets/HoloToolkit/SpatialMapping/README.md) | <p align="center"><img src="imgs/md/linq.svg" width="64"></p> [5. Configure Connect Field Service Add-On](Assets/HoloToolkit/SpatialUnderstanding/README.md) | <p align="center"><img src="imgs/md/exception.svg" width="64"></p> [6. Write Your First App](Assets/HoloToolkit/SpatialUnderstanding/README.md) |
+| 4 | 5 | 6 |
+
 
 # References
 - [Connected Field Service Architecture](https://msdn.microsoft.com/en-us/library/mt744253.aspx)
