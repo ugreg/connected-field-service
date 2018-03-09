@@ -18,32 +18,31 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 ## Step 1: Provision Dynamics 365
 
-
 1.	From a Web Browser on your computer, visit the [Dynamics 365 for Field Service home page](https://www.microsoft.com/en-us/dynamics365/field-service) and click the `START FREE >` button.
 
   <img src="imgs/provision-dynfs-homepage.png">
 
 2. Start your digital transformation!
   - `A` Select the Field Service app if it is not selected already
-  - `B` Fill out the user information form and click `GET STARTED >`
+  - `B` Click `Sign up here`
 
     <img src="imgs/provision-dynfs-fsapp-form.png">
 
-    > NOTE
+    > IMPORTANT
     >
-    > This requires an organization account
+    > Do not fill out work email and phone number and Do not click `GET STARTED >`
 
-    > - If you get the following alert, go back to step 2 use an organization account.
-      <img src="imgs/provision-dynfs-fsapp-form-not-org-account.png" width="400">
-      
-    > - If you get the following alert, click sign in and follow the standard Microsoft login prompts on screen.
-      <img src="imgs/provision-dynfs-fsapp-form-existing-account.png" width="400">
+3. Next you'll be naviagted to signup.microsoft.com to provision your new Dynamics Trail. Fill out the general information about yourself and your company click `Next`.
 
-3.	Click Just One More Step
+  <img src="imgs/provision-dynfs-personal-info.png">
 
-4.	Fill Out Form
+4. Enter your user ID information and click `Create my account`.
 
-5.	Click Create My Account
+  <img src="imgs/provision-dynfs-user-id.png">
+
+5. Lastly you'll have to confirm your identity using your phone, enter your phone number and click `Text me ->`.
+
+  <img src="imgs/provision-dynfs-phone.png">
 
 6.	Enter Your Phone Number
 
