@@ -44,7 +44,13 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/provision-dynfs-phone.png">
 
-6.	Enter Your Phone Number
+6. g once the signup is finished click `Set up`.
+
+  <img src="imgs/provision-dynfs-completed.png">
+
+  > NOTE
+  >
+  > Keep the "Sign-in page" and "user ID" copied somewhere on your computer like a text file, you will need this information later.
 
 7.	Click Text Me
 
