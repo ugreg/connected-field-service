@@ -32,7 +32,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
     >
     > Do not fill out work email and phone number and Do not click `GET STARTED >`
 
-3. Next you'll be naviagted to signup.microsoft.com to provision your new Dynamics Trail. Fill out the general information about yourself and your company click `Next`.
+3. Next you'll be naviagted to provision your new Dynamics Trail. Fill out the general information about yourself and your company then click `Next`.
 
   <img src="imgs/provision-dynfs-personal-info.png">
 
@@ -44,7 +44,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/provision-dynfs-phone.png">
 
-6. g once the signup is finished click `Set up`.
+6. After phone authentication is complete, you'll be given some important URLS that you should note down while the signup is finishing. Once the signup is finished click the `Set up` that appears.
 
   <img src="imgs/provision-dynfs-completed.png">
 
@@ -52,9 +52,16 @@ The goal of this repo is to give you everything you need to set up a Connected F
   >
   > Keep the "Sign-in page" and "user ID" copied somewhere on your computer like a text file, you will need this information later.
 
-7.	Click Text Me
+7.	Now you should be on the Dynamics 365 FREE 30 Trial set up page.
+  - `A` Field service should already be checked, if not make sure to click the check box.
+  - `B` Click `Complete Setup`, A "Setting Up..." alert will appear.
+  - `C` After the setup is complete you'll get another alert letting you know your Trial Organization will be ready soon!
 
-8.	Enter Your Validation Code You Received
+    <img src="imgs/dyn-free-trial-intro.png">
+
+    <img src="imgs/provision-dynfs-trail-email-alert.png">
+
+8. Head over to the [Office Sign-in page](https://portal.office.com/) from step 6 by clicking on [https://portal.office.com/](https://portal.office.com/) and log in with your user ID information from step 4. You should now be in your outlook Mailbox.
 
 9.	NOTE: Sometimes the login prompt is being shown directly after this step.
 Please log-in the newly created user using the User ID created on the previous step (for example, admin@XXXX.onmicrosoft.com)
