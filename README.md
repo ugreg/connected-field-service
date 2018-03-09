@@ -16,7 +16,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 `{ .gif goes here }`
 
 
-## Step 1: Provision Dynamics 365
+## Exercise 1: Provision Dynamics 365
 
 1.	From a Web Browser on your computer, visit the [Dynamics 365 for Field Service home page](https://www.microsoft.com/en-us/dynamics365/field-service) and click the `START FREE >` button.
 
@@ -89,18 +89,50 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/dyn-settings-security-users.png">
 
-13.	Now that we've provisioned our own Dynamics 365 Online tenant with Field Service installed, we need to provision an Azure environment to host the IoT services for our solution.
+13.	Now that we've provisioned our own Dynamics 365 Online tenant with Field Service installed, we need to provision an Azure environment to host the IoT services for our solution. Keep all of your tabs open and use the same web browser for the following exercises.
+
+> IMPORTANT
+>
+> Keep all of your tabs open and use the same web browser for the following exercises
 
 
-## Step 2: Provision Azure Trial
+## Exercise 2: Provision Azure Trial
 
-## Step 3: Setup MX Chip
 
-## Step 4: Configure Connected Field Service
+1.	On your PC, browse to the [Azure free trail website](https://azure.microsoft.com/en-us/free/) [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/) in the same web browser as you.
 
-## Step 5: Write Your First Application
+2.	Click `Start Free >` and sign In with your Dynamics Tenant Trial user ID created in Exercise 1 Step 4 if prompted to do so.
 
-## Step 6: Configure Azure IoT Hub Integration
+  <img src="imgs/az-free-trial.png">
+
+  > NOTE
+  >
+  > it will follow this format `Username@TenantName.Onmicrosoft.com`
+
+3.	Fill out steps 1 through in Full in the free account sign up form  .
+
+  <img src="imgs/az-free-trial-signup-one.png">
+  -
+  <img src="imgs/az-free-trial-signup-two.png">
+  -
+  <img src="imgs/az-free-trial-signup-three.png">
+  -
+  <img src="imgs/az-free-trial-signup-four.png">
+
+6.	Agree to Terms and Click `Ok`, you'll then be naviagted to the Azure welcome page. Close this page and head to the [Azure portal](https://portal.azure.com/) at [https://portal.azure.com/](https://portal.azure.com/).
+
+7.
+
+
+## Exercise 3: Setup MX Chip
+
+`{ TODO }`
+
+## Exercise 4: Configure Connected Field Service
+
+## Exercise 5: Write Your First Application
+
+## Exercise 6: Configure Azure IoT Hub Integration
 
 
 ## My Environment
