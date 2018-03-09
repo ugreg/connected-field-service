@@ -61,31 +61,27 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
     <img src="imgs/provision-dynfs-trail-email-alert.png">
 
-8. Head over to the [Office Sign-in page](https://portal.office.com/) from step 6 by clicking on [https://portal.office.com/](https://portal.office.com/) and log in with your user ID information from step 4. You should now be in your outlook Mailbox.
+8. Head over to the [Office Sign-in page](https://portal.office.com/) from step 6 by clicking on [https://portal.office.com/](https://portal.office.com/) and log in with your user ID information from step 4. You'll first see a welcome alert, go ahead and hit the `X` button to remove it and then click the Admin app.
 
-9.	NOTE: Sometimes the login prompt is being shown directly after this step.
-Please log-in the newly created user using the User ID created on the previous step (for example, admin@XXXX.onmicrosoft.com)
-NOTE: If the log-in screen fails with a message that the user can’t be found in the system, please wait for a few seconds and try to login again
+  <img src="imgs/office-first-login.png">
 
-10.	Click Next
+  <img src="imgs/office-apps.png">
 
-11.	Write Down Your Organization Name and Administrator Username and Password
+9. Now you should be on the Office admin page.
+  - `A` You'll first see a welcome alert, go ahead and hit the `X` button to remove it
+  - `B` On the left menu click `Dynamics 365`, a new tab will open
 
-12.	Click Set up. NOTE: Login invitation might appear on this step as well, please login using your newly created account
+  <img src="imgs/office-admin-dyn.png">
 
-13.	Select Field Service
+10.	Click Settings
 
-15.	Click Complete Setup
+11.	Click Security
 
-16.	Click Settings
+12.	Click Users
 
-17.	Click Security
+13.	Click on Your User Name
 
-18.	Click Users
-
-19.	Click on Your User Name
-
-20.	On the Command Ribbon, Click Promote to Admin
+14.	On the Command Ribbon, Click Promote to Admin
 
 ## Step 2: Provision Azure Trial
 
