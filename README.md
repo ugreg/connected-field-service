@@ -35,6 +35,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
     > - If you get the following alert, go back to step 2 use an organization account.
       <img src="imgs/provision-dynfs-fsapp-form-not-org-account.png" width="400">
+      
     > - If you get the following alert, click sign in and follow the standard Microsoft login prompts on screen.
       <img src="imgs/provision-dynfs-fsapp-form-existing-account.png" width="400">
 
