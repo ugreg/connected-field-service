@@ -61,27 +61,36 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
     <img src="imgs/provision-dynfs-trail-email-alert.png">
 
-8. Head over to the [Office Sign-in page](https://portal.office.com/) from step 6 by clicking on [https://portal.office.com/](https://portal.office.com/) and log in with your user ID information from step 4. You'll first see a welcome alert, go ahead and hit the `X` button to remove it and then click the Admin app.
+8. Head over the [Outlook mail website](https://outlook.office.com/owa/) and sign in with your business email address from step 3. Find the email from Microsoft Dynamics CRM Online and click the `Get Started` button from that email.
 
-  <img src="imgs/office-first-login.png">
+  <img src="imgs/dyn-confirmation-email.png">
 
-  <img src="imgs/office-apps.png">
+9. Welcome to Dynamics 365! No let's make sure your account has the right permissions going forward to complete the rest of the exercises we have in store.
 
-9. Now you should be on the Office admin page.
-  - `A` You'll first see a welcome alert, go ahead and hit the `X` button to remove it
-  - `B` On the left menu click `Dynamics 365`, a new tab will open
+  <img src="imgs/dyn-fs.png">
 
-  <img src="imgs/office-admin-dyn.png">
+9.	We're going to do this by navigating through our organization's Site Map.
+  - `A` Click the drop down arrow next to `Field service`
+  - `B` Then click `Settings` to open our system and application settings
+  - `C` Click `Security` under System settings
 
-10.	Click Settings
+  <img src="imgs/dyn-sitemap-fs.png">
 
-11.	Click Security
+  <img src="imgs/dyn-sitemap-settings.png">
 
-12.	Click Users
+11.	On the Security Settings page Click Users.
 
-13.	Click on Your User Name
+  <img src="imgs/dyn-settings-security.png">
 
-14.	On the Command Ribbon, Click Promote to Admin
+12.	On the Enabled Users page:
+  - `A` Click the check box next to your name
+  - `B` Click `Promote to Admin` button
+  - `C` Then click `OK` in the alert dialog that comes up
+
+  <img src="imgs/dyn-settings-security-users.png">
+
+13.	Now that we've provisioned our own Dynamics 365 Online tenant with Field Service installed, we need to provision an Azure environment to host the IoT services for our solution.
+
 
 ## Step 2: Provision Azure Trial
 
