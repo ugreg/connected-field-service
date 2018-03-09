@@ -109,26 +109,80 @@ The goal of this repo is to give you everything you need to set up a Connected F
   >
   > it will follow this format `Username@TenantName.Onmicrosoft.com`
 
-3.	Fill out steps 1 through in Full in the free account sign up form  .
+3.	Fill out steps 1 through in Full through the free account sign up form  .
 
   <img src="imgs/az-free-trial-signup-one.png">
-  -
+
   <img src="imgs/az-free-trial-signup-two.png">
-  -
+
   <img src="imgs/az-free-trial-signup-three.png">
-  -
+
   <img src="imgs/az-free-trial-signup-four.png">
 
-6.	Agree to Terms and Click `Ok`, you'll then be naviagted to the Azure welcome page. Close this page and head to the [Azure portal](https://portal.azure.com/) at [https://portal.azure.com/](https://portal.azure.com/).
+6.	After agreeing to the terms and clicking `Sign up`, you'll then be navigated to the Azure welcome page. Close this page and head to the [Azure portal](https://portal.azure.com/) at [https://portal.azure.com/](https://portal.azure.com/).
 
-7.
-
+7. Now we have our Azure environment up and running! With both our Azure environment and Dynamics environment in place, all we need now is an IoT device for these platforms to communicate with.
 
 ## Exercise 3: Setup MX Chip
 
 `{ TODO }`
 
-## Exercise 4: Configure Connected Field Service
+## Exercise 4: Configure Connected Field Service (CFS)
+
+1. On your computer, browse to AppSource here [https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) and to download the ["Connected Field Service Add-On"](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) by clicking `GET IN NOW`.
+
+  <img src="imgs/appsource-cfs-addon.png">
+
+8.	Taking you to Dynamics 365 to complete the process
+
+16.	Select the Dynamics 365 Organization
+17.	Click Next
+
+18.	Select Azure Subscription
+19.	Type a Resource Group Name
+20.	Select East US as your Deployment Region
+21.	Check PowerBI
+a.	Username: PowerBISQL
+b.	Password: zaq1@WSX
+22.	Click Deploy
+
+
+23.	Wait while Connected Field Service Deploys
+24.	After All of the Resource Deploy, Click the Authorize Button
+
+
+29.	Clicking the Authorize Button will bring up the API Connection in the Resource Group within the Azure Portal.
+30.	Click This connection is not authenticated
+
+31.	Click the Authorize Button
+
+32.	Enter your CRM Credentials (Username@OrganizationName.onmicrosoft.com)
+33.	Click Sign In
+34.	Click Save
+
+35.	Click on the IoT Hub Item. It is normally named the same as your Resource Group with a GUID after it.
+
+36.	Click on Share Access Policies
+
+37.	Click + to Add a New Shared Access Policy
+
+38.	Give your policy a name: “particle-iot-hub”
+39.	 Give your new policy registry read, registry write, and device connect permissions
+
+40.	Click Create to add the new shared access policy. It will take a few moments for Azure to create your new policy successfully.
+41.	Click on the Access Policy Name you just created (particle-iot-hub)
+
+42.	Copy the Primary Key to Notepad (Don’t share the Primary Key as it is like giving somebody the keys to your house. Without you home. And Top Shelf Liquor around.)
+
+43.	Go back to the Resource Group
+44.	About ¾ the way down the list of resources, there is a App Service that starts with Simulator + words words words words words words words
+45.	Click on that resource
+46.	Highlight the Resource Name
+47.	In a new browser tab, paste the resource name followed by .azurewebsites.net
+Like  Simulator.azurewebsites.net
+48.
+49.	So mine would become: SimulatorCFSHOLb594d2b5d25b48678337857fbe75a3f3.azurewebsites.net
+
 
 ## Exercise 5: Write Your First Application
 
