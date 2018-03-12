@@ -9,7 +9,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 | <p align="center"><img src="imgs/md/code-file.svg" width="64"></p> [1. Provision Dynamics 365](Assets/HoloToolkit/Input/README.md) | <p align="center"><img src="imgs/md/resources.svg" width="64"></p> [2. Provision Azure Trail](Assets/HoloToolkit/Sharing/README.md) | <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [3. Setup MX Chip](Assets/HoloToolkit/SpatialMapping/README.md) |
 | :- | :- | :- |
 | `{ blurb here }` | `{ blurb here }` | `{ blurb here }` |
-| <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [4. Setup MX Chip](Assets/HoloToolkit/SpatialMapping/README.md) | <p align="center"><img src="imgs/md/linq.svg" width="64"></p> [5. Configure Connect Field Service Add-On](Assets/HoloToolkit/SpatialUnderstanding/README.md) | <p align="center"><img src="imgs/md/exception.svg" width="64"></p> [6. Write Your First App](Assets/HoloToolkit/SpatialUnderstanding/README.md) |
+| <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [4. Setup MX Chip](Assets/HoloToolkit/SpatialMapping/README.md) | <p align="center"><img src="imgs/md/linq.svg" width="64"></p> [5. Technical decomposition](Assets/HoloToolkit/SpatialUnderstanding/README.md) | <p align="center"><img src="imgs/md/exception.svg" width="64"></p> [6. Something else](Assets/HoloToolkit/SpatialUnderstanding/README.md) |
 | `{ blurb here }` | `{ blurb here }` | `{ blurb here }` |
 
 ## Finished Product
@@ -129,11 +129,11 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 ## Exercise 4: Configure Connected Field Service (CFS)
 
-1. On your computer, browse to AppSource here [https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) and to download the ["Connected Field Service Add-On"](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) by clicking `GET IN NOW`.
+1. On your computer, browse to AppSource here [https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) and to download the ["Connected Field Service Add-On"](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) by clicking `GET IN NOW`. gregdegury@gregdegruy.onmicrosoft.com and https://gregdegruy.crm.dynamics.com/main.aspx#789609347
 
   <img src="imgs/appsource-cfs-addon.png">
 
-8.	Taking you to Dynamics 365 to complete the process
+2. You should now see a prompt notifying you that you are being taken to Dynamics 365 to complete the process.
 
 16.	Select the Dynamics 365 Organization
 17.	Click Next
@@ -184,10 +184,8 @@ Like  Simulator.azurewebsites.net
 49.	So mine would become: SimulatorCFSHOLb594d2b5d25b48678337857fbe75a3f3.azurewebsites.net
 
 
-## Exercise 5: Write Your First Application
-
-## Exercise 6: Configure Azure IoT Hub Integration
-
+## Exercise 5: Technical Decomposition
+`{ will }`
 
 ## My Environment
 `{ my dynamics and azure environment details }`
