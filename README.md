@@ -219,13 +219,23 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/az-rg-iothub.png">  
 
-14.	-
+14.	Now we need to add a Shared access policy to create a connection between our IoT Hub and Dynamics.
+  - `A` Click "Shared access policy" from the IoT Hub menu.
+  - `B` Click "+ Add" at the very top of the Shares access policy list.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-iothub-sas-a.png">  
+  <img src="imgs/az-iothub-sas-b.png">  
 
-15.	-
+15.	Then give the Shared access policy the permissions it needs to communicate with Dynamics.
+  - `A` Give your policy a name, I called mine "dynamics-iot-hub"
+  - `B` Select the `Registry read`, `Registry write`, and `Device connect` permissions
+  - `C` Click the `Create` button
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  > NOTE
+  >
+  > Make sure you select all 3 permissions **Registry read**, **Registry write**, and **Device connect** before creating the policy.
+
+  <img src="imgs/az-iothub-sas-permissions.png">  
 
 16.	Click on Share Access Policies
 
@@ -233,8 +243,15 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 17.	Click + to Add a New Shared Access Policy
 
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
+
 18.	Give your policy a name: “particle-iot-hub”
+
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
+
 19.	 Give your new policy registry read, registry write, and device connect permissions
+
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
 
 20.	Click Create to add the new shared access policy. It will take a few moments for Azure to create your new policy successfully.
 
