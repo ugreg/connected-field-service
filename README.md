@@ -148,16 +148,30 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/dyn-appsource-install-select-org.png">
 
-4.	Select the Dynamics 365 Organization
-5.	Click Next
+4.	Read over the Terms of service. Click `Next` when you're ready.
+
+  <img src="imgs/dyn-appsource-terms-of-service.png">
+
+5.	Read over the Privacy statement. Click `Next` when you're ready.
+
+  <img src="imgs/dyn-appsource-install-privacy-statement.png">
 
 6.	Select Azure Subscription
-7.	Type a Resource Group Name
-8.	Select East US as your Deployment Region
-9.	Check PowerBI
-  a.	Username: PowerBISQL
-  b.	Password: zaq1@WSX
 
+  <img src="imgs/dyn-appsource-install-privacy-statement.png">
+
+7.	Type a Resource Group Name
+
+  <img src="imgs/dyn-appsource-install-privacy-statement.png">
+
+8.	Select East US as your Deployment Region
+
+  <img src="imgs/dyn-appsource-install-privacy-statement.png">
+
+9.	Check PowerBI
+
+  <img src="imgs/dyn-appsource-install-privacy-statement.png">
+  
 10.	Click Deploy
 
 11.	Wait while Connected Field Service Deploys... and by wait we mean approximately 24mins 10s 88ms :O.
