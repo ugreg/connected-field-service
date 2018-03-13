@@ -162,7 +162,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/dyn-appsource-install-select-org-iot-solution.png">
 
-7.	Let's setup the Azure IoT connector assets for your Dynamics organization.
+7.	Let's setup the Azure IoT connector services for your Dynamics organization.
   - `A` Your Azure Trial is auto selected for you and should say "Free Trial", this came from the work we did in Exercise 2.
   - `B` Choose `Create new` for our Resources
   - `C` Check Enable Power BI Integration. In my case I choose "gregdegruy" as my SQL Server Admin Login and... not about to give you my password silly :P.
@@ -182,31 +182,44 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/dyn-appsource-install-az-services.png">
 
-8.	Your Azure IoT connector assets for your Dynamics organization are not automatically deploying for you! This is going to take a while :/ around 25 minutes to be exact.
+8.	Your Azure IoT connector services for your Dynamics organization are not automatically deploying for you! Starting with your Azure StorageAccount that currently has a InProgress Deployment Status, but will soon be at this Success and so will the other services that will slowly appear under Resource Type. This is going to take a while :/ around 25 minutes to be exact.
 
   <img src="imgs/dyn-appsource-install-az-services-inprog.png">
 
-9.	Check PowerBI
+9.	Once deployment is completed, you'll notice all services will have a Success Deployment Status. You should now be able to click the Authorize button that will take you to your Azure Portal where we will complete our setup. Click the `Authorize` button.
 
   <img src="imgs/dyn-appsource-install-az-services-complete.png">
 
-10.	Click Deploy
+10.	The first windows you'll see in your Azure portal is for the dynamicscrmonline API Connection service. We need to authorize this API Connection service to connect to our Dynamics organization.
+  - `A` "This connection is not authenticated" highlighted in yellow.
+
+  <img src="imgs/az-crm-online-api-connector.png">  
+
+  - `B` "This connection is not authenticated" highlighted in yellow.
+
+  <img src="imgs/az-crm-online-api-connector-name.png">  
+
+  - `C` "This connection is not authenticated" highlighted in yellow.
+
+  <img src="imgs/az-crm-online-api-connector-auth.png">  
+
+  - `D` "This connection is not authenticated" highlighted in yellow.
+
+  <img src="imgs/az-crm-online-api-connector-complete.png">  
+
+11.	Now that we have an authorized API connection between Azure and Dynamics, we can.
 
   <img src="imgs/az-auth-crm-online-api-connector.png">  
 
-11.	Wait while Connected Field Service Deploys... and by wait we mean approximately 24mins 10s 88ms :O.
+12.	-
 
   <img src="imgs/az-auth-crm-online-api-connector.png">  
 
-12.	After All of the Resource Deploy, Click the Authorize Button
+13.	-
 
   <img src="imgs/az-auth-crm-online-api-connector.png">  
 
-13.	Clicking the Authorize Button will bring up the API Connection in the Resource Group within the Azure Portal.
-
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
-
-14.	Click This connection is not authenticated
+14.	-
 
   <img src="imgs/az-auth-crm-online-api-connector.png">  
 
