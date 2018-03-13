@@ -199,46 +199,46 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/az-crm-online-api-connector-name.png">  
 
-  - `C` A Windows will open for you to pick your Microsoft account in Exercise 1 step 6, only one should be shown show select it.
+  - `C` A Window will open for you to pick your Microsoft account login. We created this login in Exercise 1 step 6, only one login should be shown show so select it.
 
   <img src="imgs/az-crm-online-api-connector-auth.png">  
 
-  - `D` "This connection is not authenticated" highlighted in yellow.
+  - `D` The window will close and you'll now have the option to save your API connection information, click `Save`.
 
   <img src="imgs/az-crm-online-api-connector-complete.png">  
 
-11.	Now that we have an authorized API connection between Azure and Dynamics, we can.
+11.	Now that we have an authorized API connection between Azure and Dynamics, we can start configuring our IoT Hub. This IoT Hub serves as our management service for the IoT device. Click on `Resource Groups` from the left menu.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-menu-rg.png">  
 
-12.	-
+12.	This will bring you to the resource group selection list. We created this resource group in Exercise 3 step 7 and contains all of the IoT connector service we'll be using. Click on `rg-connected-field-service`.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-rg-list.png">  
 
-13.	-
+13.	Click on your IoT Hub. It is named the same as your Resource Group with a long list of letters and numbers in the form of a GUID, in my case it's called `rgconnectedfieldservice8e3aca9cda474acd82c08f5a`.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-rg-iothub.png">  
 
 14.	-
 
   <img src="imgs/az-auth-crm-online-api-connector.png">  
 
-31.	Click the Authorize Button
+15.	-
 
-32.	Enter your CRM Credentials (Username@OrganizationName.onmicrosoft.com)
-33.	Click Sign In
-34.	Click Save
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
 
-35.	Click on the IoT Hub Item. It is normally named the same as your Resource Group with a GUID after it.
+16.	Click on Share Access Policies
 
-36.	Click on Share Access Policies
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
 
-37.	Click + to Add a New Shared Access Policy
+17.	Click + to Add a New Shared Access Policy
 
-38.	Give your policy a name: “particle-iot-hub”
-39.	 Give your new policy registry read, registry write, and device connect permissions
+18.	Give your policy a name: “particle-iot-hub”
+19.	 Give your new policy registry read, registry write, and device connect permissions
 
-40.	Click Create to add the new shared access policy. It will take a few moments for Azure to create your new policy successfully.
+20.	Click Create to add the new shared access policy. It will take a few moments for Azure to create your new policy successfully.
+
+
 41.	Click on the Access Policy Name you just created (particle-iot-hub)
 
 42.	Copy the Primary Key to Notepad (Don’t share the Primary Key as it is like giving somebody the keys to your house. Without you home. And Top Shelf Liquor around.)
