@@ -119,9 +119,11 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/az-free-trial-signup-four.png">
 
-6.	After agreeing to the terms and clicking `Sign up`, you'll then be navigated to the Azure welcome page. Close this page and head to the [Azure portal](https://portal.azure.com/) at [https://portal.azure.com/](https://portal.azure.com/).
+6.	After agreeing to the terms and clicking `Sign up`, you'll then be navigated to the Azure welcome page. Close this page and head to the [Azure portal](https://portal.azure.com/) at [https://portal.azure.com/](https://portal.azure.com/). You should the following landing page, choose maybe `Maybe later` for no on the alert window, free tours are fun and there's a time and place for everything, but not now.
 
-7. Now we have our Azure environment up and running! With both our Azure environment and Dynamics environment in place, all we need now is an IoT device for these platforms to communicate with.
+  <img src="imgs/az-first-login.png">
+
+7. Now we have our Azure environment up and running! With both our Azure environment and Dynamics environment in place, all we need now is some IoT services to glue these platforms together.
 
 ## Exercise 3: Setup MX Chip
 
@@ -129,7 +131,9 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 ## Exercise 4: Configure Connected Field Service (CFS)
 
-1. On your computer, browse to AppSource here [https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) and to download the ["Connected Field Service Add-On"](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) by clicking `GET IN NOW`. gregdegury@gregdegruy.onmicrosoft.com and https://gregdegruy.crm.dynamics.com/main.aspx#789609347
+1. On your computer, browse to AppSource here [https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) and download the ["Connected Field Service Add-On"](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) by clicking `GET IN NOW`.
+
+  gregdegury@gregdegruy.onmicrosoft.com and https://gregdegruy.crm.dynamics.com/main.aspx
 
   <img src="imgs/appsource-cfs-addon.png">
 
@@ -138,28 +142,31 @@ The goal of this repo is to give you everything you need to set up a Connected F
   <img src="imgs/appsource-cfs-addon-permissions.png">
 
 3. The first step in configuring your Connected Field Service environment is choosing the Dynamics 365 organization you want to install the Connected Field Service Add-On too.
+  - `A` Your Dynamics 365 organization is auto selected for you
+  - `B` Check off the two boxes to agree to the terms of use
+  - `B` Click the `Agree` button
 
-  <img src="imgs/appsource-cfs-addon-permissions.png">
+  <img src="imgs/dyn-appsource-install-select-org.png">
 
-16.	Select the Dynamics 365 Organization
-17.	Click Next
+4.	Select the Dynamics 365 Organization
+5.	Click Next
 
-18.	Select Azure Subscription
-19.	Type a Resource Group Name
-20.	Select East US as your Deployment Region
-21.	Check PowerBI
+6.	Select Azure Subscription
+7.	Type a Resource Group Name
+8.	Select East US as your Deployment Region
+9.	Check PowerBI
   a.	Username: PowerBISQL
   b.	Password: zaq1@WSX
 
-22.	Click Deploy
+10.	Click Deploy
 
-23.	Wait while Connected Field Service Deploys... and by wait we mean approximately 24mins 10s 88ms :O.
+11.	Wait while Connected Field Service Deploys... and by wait we mean approximately 24mins 10s 88ms :O.
 
-24.	After All of the Resource Deploy, Click the Authorize Button
+12.	After All of the Resource Deploy, Click the Authorize Button
 
 
-29.	Clicking the Authorize Button will bring up the API Connection in the Resource Group within the Azure Portal.
-30.	Click This connection is not authenticated
+13.	Clicking the Authorize Button will bring up the API Connection in the Resource Group within the Azure Portal.
+14.	Click This connection is not authenticated
 
 31.	Click the Authorize Button
 
