@@ -239,7 +239,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 16.	Click on Share Access Policies
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-iothub-sas-key.png">  
 
 17.	Click + to Add a New Shared Access Policy
 
