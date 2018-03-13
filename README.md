@@ -191,15 +191,15 @@ The goal of this repo is to give you everything you need to set up a Connected F
   <img src="imgs/dyn-appsource-install-az-services-complete.png">
 
 10.	The first windows you'll see in your Azure portal is for the dynamicscrmonline API Connection service. We need to authorize this API Connection service to connect to our Dynamics organization.
-  - `A` "This connection is not authenticated" highlighted in yellow.
+  - `A` Click "This connection is not authenticated" highlighted in yellow.
 
   <img src="imgs/az-crm-online-api-connector.png">  
 
-  - `B` "This connection is not authenticated" highlighted in yellow.
+  - `B` Give your connection a name and click `Authorize`
 
   <img src="imgs/az-crm-online-api-connector-name.png">  
 
-  - `C` "This connection is not authenticated" highlighted in yellow.
+  - `C` A Windows will open for you to pick your Microsoft account in Exercise 1 step 6, only one should be shown show select it.
 
   <img src="imgs/az-crm-online-api-connector-auth.png">  
 
