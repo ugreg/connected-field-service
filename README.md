@@ -135,6 +135,12 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 2. You should now see a prompt notifying you that you are being taken to Dynamics 365 to complete the process.
 
+  <img src="imgs/appsource-cfs-addon-permissions.png">
+
+3. The first step in configuring your Connected Field Service environment is choosing the Dynamics 365 organization you want to install the Connected Field Service Add-On too.
+
+  <img src="imgs/appsource-cfs-addon-permissions.png">
+
 16.	Select the Dynamics 365 Organization
 17.	Click Next
 
@@ -142,12 +148,13 @@ The goal of this repo is to give you everything you need to set up a Connected F
 19.	Type a Resource Group Name
 20.	Select East US as your Deployment Region
 21.	Check PowerBI
-a.	Username: PowerBISQL
-b.	Password: zaq1@WSX
+  a.	Username: PowerBISQL
+  b.	Password: zaq1@WSX
+
 22.	Click Deploy
 
+23.	Wait while Connected Field Service Deploys... and by wait we mean approximately 24mins 10s 88ms :O.
 
-23.	Wait while Connected Field Service Deploys
 24.	After All of the Resource Deploy, Click the Authorize Button
 
 
