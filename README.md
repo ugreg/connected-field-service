@@ -192,13 +192,23 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 10.	Click Deploy
 
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
+
 11.	Wait while Connected Field Service Deploys... and by wait we mean approximately 24mins 10s 88ms :O.
+
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
 
 12.	After All of the Resource Deploy, Click the Authorize Button
 
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
 
 13.	Clicking the Authorize Button will bring up the API Connection in the Resource Group within the Azure Portal.
+
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
+
 14.	Click This connection is not authenticated
+
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
 
 31.	Click the Authorize Button
 
