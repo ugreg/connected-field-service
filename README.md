@@ -144,7 +144,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 3. The first step in configuring your Connected Field Service environment is choosing the Dynamics 365 organization you want to install the Connected Field Service Add-On too.
   - `A` Your Dynamics 365 organization is auto selected for you
   - `B` Check off the two boxes to agree to the terms of use
-  - `B` Click the `Agree` button
+  - `C` Click the `Agree` button
 
   <img src="imgs/dyn-appsource-install-select-org.png">
 
@@ -156,22 +156,40 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/dyn-appsource-install-privacy-statement.png">
 
-6.	Select Azure Subscription
+6.	Verify the Dynamics 365 subscription where the Internet of Things solution will be deployed is selected properly.
+  - `A` Your Dynamics 365 organization is auto selected for you
+  - `B` Click the `Next` button
 
-  <img src="imgs/dyn-appsource-install-privacy-statement.png">
+  <img src="imgs/dyn-appsource-install-select-org-iot-solution.png">
 
-7.	Type a Resource Group Name
+7.	Let's setup the Azure IoT connector assets for your Dynamics organization.
+  - `A` Your Azure Trial is auto selected for you and should say "Free Trial", this came from the work we did in Exercise 2.
+  - `B` Choose `Create new` for our Resources
+  - `C` Check Enable Power BI Integration. In my case I choose "gregdegruy" as my SQL Server Admin Login and... not about to give you my password silly :P.
 
-  <img src="imgs/dyn-appsource-install-privacy-statement.png">
+  > NOTE
+  >
+  > Make sure you fill in **SQL Server Admin Login**, **SQL Password**, and **Confirm Password**
 
-8.	Select East US as your Deployment Region
+  - `D` Choose `Create new` for our Resource Group Selection
+  - `E` Give your Resource Group a name and deployment region, in my case I called it "rg-connected-field-service" and choose "West US".
 
-  <img src="imgs/dyn-appsource-install-privacy-statement.png">
+  > NOTE
+  >
+  > Make sure you choose both a **Resource Group Name** and **Deployment Region**
+
+  - `F` Click the `Deploy` button
+
+  <img src="imgs/dyn-appsource-install-az-services.png">
+
+8.	Your Azure IoT connector assets for your Dynamics organization are not automatically deploying for you! This is going to take a while :/ around 25 minutes to be exact.
+
+  <img src="imgs/dyn-appsource-install-az-services-inprog.png">
 
 9.	Check PowerBI
 
-  <img src="imgs/dyn-appsource-install-privacy-statement.png">
-  
+  <img src="imgs/dyn-appsource-install-az-services-complete.png">
+
 10.	Click Deploy
 
 11.	Wait while Connected Field Service Deploys... and by wait we mean approximately 24mins 10s 88ms :O.
