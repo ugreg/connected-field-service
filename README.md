@@ -209,7 +209,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 11.	Now that we have an authorized API connection between Azure and Dynamics, we can start configuring our IoT Hub. This IoT Hub serves as our management service for the IoT device. Click on `Resource Groups` from the left menu.
 
-  <img src="imgs/az-menu-rg.png">  
+  <img src="imgs/az-menu-rg-from-apiconn.png">  
 
 12.	This will bring you to the resource group selection list. We created this resource group in Exercise 3 step 7 and contains all of the IoT connector service we'll be using. Click on `rg-connected-field-service`.
 
@@ -237,35 +237,29 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/az-iothub-sas-permissions.png">  
 
-16.	Click on Share Access Policies
+16.	Once created, the shared access policy will provide 4 keys to you. The one we will need going forward is the `Primary Key`, click the copy button for the primary key and save it in Notepad. Notepad can be open by clicking the `A` Cortana button next to the Windows icon and typing in Notepad. It will be the first app on the list that you can then `B` click on.
 
   <img src="imgs/az-iothub-sas-key.png">  
+  <img src="imgs/win-open-notepad.png">
 
-17.	Click + to Add a New Shared Access Policy
+17.	Now that we have SAS key saved, we can head to our device simulator. This simulator is a web app that we can use to see real time IoT device telemetry. Click on `Resource Groups` from the left menu.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-menu-rg-from-sas.png">  
 
-18.	Give your policy a name: “particle-iot-hub”
+18.	This will bring you to the resource group selection list. We created this resource group in Exercise 3 step 7 and contains all of the App service we'll be using for our simulator. Click on `rg-connected-field-service`.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-rg-list.png">  
 
-19.	 Give your new policy registry read, registry write, and device connect permissions
+19.	Click on your Simulator App Service. It is named Simulator followed by the same name as your Resource Group with a long list of letters and numbers in the form of a GUID, in my case it's called `Simulatorrgconnectedfieldservice8b0afe2802a54b3`.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-rg-simulator-appservice.png">  
 
-20.	Click Create to add the new shared access policy. It will take a few moments for Azure to create your new policy successfully.
-
-
-41.	Click on the Access Policy Name you just created (particle-iot-hub)
-
-42.	Copy the Primary Key to Notepad (Don’t share the Primary Key as it is like giving somebody the keys to your house. Without you home. And Top Shelf Liquor around.)
-
-43.	Go back to the Resource Group
-44.	About ¾ the way down the list of resources, there is a App Service that starts with Simulator + words words words words words words words
-45.	Click on that resource
-46.	Highlight the Resource Name
-47.	In a new browser tab, paste the resource name followed by .azurewebsites.net
+20. In a new browser tab, paste the resource name followed by .azurewebsites.net
 Like  Simulator.azurewebsites.net
+
+  <img src="imgs/az-auth-crm-online-api-connector.png">  
+
+47.
 48.
 49.	So mine would become: SimulatorCFSHOLb594d2b5d25b48678337857fbe75a3f3.azurewebsites.net
 
