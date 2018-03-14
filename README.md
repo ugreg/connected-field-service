@@ -262,7 +262,19 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/simulator-appservice-website.png">  
 
-## Exercise 5: Technical Decomposition
+## Exercise 5
+`{ todo }`
+
+## Technical Decomposition
+`{ todo }`
+
+## How do we define Field Service
+`{ todo }`
+
+## Functional Use Cases for CFS
+`{ todo }`  
+
+## Practical Use Cases for CFS
 `{ todo }`
 
 ## My Environment
