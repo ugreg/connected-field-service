@@ -8,9 +8,9 @@ The goal of this repo is to give you everything you need to set up a Connected F
 # Goals
 | <p align="center"><img src="imgs/md/code-file.svg" width="64"></p> [1. Provision Dynamics 365](Assets/HoloToolkit/Input/README.md) | <p align="center"><img src="imgs/md/resources.svg" width="64"></p> [2. Provision Azure Trail](Assets/HoloToolkit/Sharing/README.md) | <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [3. Setup MX Chip](Assets/HoloToolkit/SpatialMapping/README.md) |
 | :- | :- | :- |
-| `{ blurb here }` | `{ blurb here }` | `{ blurb here }` |
+| `{ todo }` | `{ todo }` | `{ todo }` |
 | <p align="center"><img src="imgs/md/generics.svg" width="64"></p> [4. Setup MX Chip](Assets/HoloToolkit/SpatialMapping/README.md) | <p align="center"><img src="imgs/md/linq.svg" width="64"></p> [5. Technical decomposition](Assets/HoloToolkit/SpatialUnderstanding/README.md) | <p align="center"><img src="imgs/md/exception.svg" width="64"></p> [6. Something else](Assets/HoloToolkit/SpatialUnderstanding/README.md) |
-| `{ blurb here }` | `{ blurb here }` | `{ blurb here }` |
+| `{ todo }` | `{ todo }` | `{ todo }` |
 
 ## Finished Product
 `{ .gif goes here }`
@@ -254,21 +254,19 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/az-rg-simulator-appservice.png">  
 
-20. In a new browser tab, paste the resource name followed by .azurewebsites.net
-Like  Simulator.azurewebsites.net
+20. After you click on your Simulator App Service, you'll be brought to the main page for your App Service. Move your mouse to the right of the URL link, a copy button will appear. Click the copy button to copy the URL. In a new browser tab, paste the URL.
 
-  <img src="imgs/az-auth-crm-online-api-connector.png">  
+  <img src="imgs/az-rg-simulator-appservice-url.png">
 
-47.
-48.
-49.	So mine would become: SimulatorCFSHOLb594d2b5d25b48678337857fbe75a3f3.azurewebsites.net
+21. You should now be on your IoT device simulator website.
 
+  <img src="imgs/simulator-appservice-website.png">  
 
 ## Exercise 5: Technical Decomposition
-`{ will }`
+`{ todo }`
 
 ## My Environment
-`{ my dynamics and azure environment details }`
+`{ todo }`
 
 # References
 - [Connected Field Service Add-On](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0)
