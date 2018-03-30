@@ -99,9 +99,9 @@ The goal of this repo is to give you everything you need to set up a Connected F
 ## Exercise 2: Provision Azure Trial
 
 
-1.	On your PC, browse to the [Azure free trail website](https://azure.microsoft.com/en-us/free/) [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/) in the same web browser as you.
+1.On your PC, browse to the [Azure free trail website](https://azure.microsoft.com/en-us/free/) [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/) by opening a new tab in the same web browser as you configured Dynamics.
 
-2.	Click `Start Free >` and sign In with your Dynamics Tenant Trial user ID created in Exercise 1 Step 4 if prompted to do so.
+2. Click `Start Free >` and sign In with your Dynamics Tenant Trial user ID created in Exercise 1 Step 4 if prompted to do so.
 
   <img src="imgs/az-free-trial.png">
 
@@ -109,7 +109,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
   >
   > it will follow this format `Username@TenantName.Onmicrosoft.com`
 
-3.	Fill out steps 1 through in Full through the free account sign up form  .
+3. Fill out steps 1 through in Full through the free account sign up form.
 
   <img src="imgs/az-free-trial-signup-one.png">
 
