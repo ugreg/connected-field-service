@@ -109,7 +109,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
   >
   > it will follow this format `Username@TenantName.Onmicrosoft.com`
 
-3. Fill out steps 1 through in Full through the free account sign up form.
+3. Fill out steps 1 through 4 in Full through the free account sign up form.
 
   <img src="imgs/az-free-trial-signup-one.png">
 
@@ -119,7 +119,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/az-free-trial-signup-four.png">
 
-6.	After agreeing to the terms and clicking `Sign up`, you'll then be navigated to the Azure welcome page. Close this page and head to the [Azure portal](https://portal.azure.com/) at [https://portal.azure.com/](https://portal.azure.com/). You should the following landing page, choose maybe `Maybe later` for no on the alert window, free tours are fun and there's a time and place for everything, but not now.
+6. After agreeing to the terms and clicking `Sign up`, you'll then be navigated to the Azure welcome page. Close this page and head to the [Azure portal](https://portal.azure.com/) at [https://portal.azure.com/](https://portal.azure.com/). You should the following landing page, choose maybe `Maybe later` for no on the alert window, free tours are fun and there's a time and place for everything, but not now.
 
   <img src="imgs/az-first-login.png">
 
@@ -148,15 +148,15 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/dyn-appsource-install-select-org.png">
 
-4.	Read over the Terms of service. Click `Next` when you're ready.
+4. Read over the Terms of service. Click `Next` when you're ready.
 
   <img src="imgs/dyn-appsource-terms-of-service.png">
 
-5.	Read over the Privacy statement. Click `Next` when you're ready.
+5. Read over the Privacy statement. Click `Next` when you're ready.
 
   <img src="imgs/dyn-appsource-install-privacy-statement.png">
 
-6.	Verify the Dynamics 365 subscription where the Internet of Things solution will be deployed is selected properly.
+6. Verify the Dynamics 365 subscription where the Internet of Things solution will be deployed is selected properly.
   - `A` Your Dynamics 365 organization is auto selected for you
   - `B` Click the `Next` button
 
@@ -182,7 +182,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
   <img src="imgs/dyn-appsource-install-az-services.png">
 
-8.	Your Azure IoT connector services for your Dynamics organization are not automatically deploying for you! Starting with your Azure StorageAccount that currently has a InProgress Deployment Status, but will soon be at this Success and so will the other services that will slowly appear under Resource Type. This is going to take a while :/ around 25 minutes to be exact.
+8. Your Azure IoT connector services for your Dynamics organization are not automatically deploying for you! Starting with your Azure StorageAccount that currently has a InProgress Deployment Status, but will soon be at this Success and so will the other services that will slowly appear under Resource Type. This is going to take a while :/ around 25 minutes to be exact.
 
   <img src="imgs/dyn-appsource-install-az-services-inprog.png">
 
