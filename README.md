@@ -127,7 +127,7 @@ The goal of this repo is to give you everything you need to set up a Connected F
 
 ## Exercise 3: Setup MX Chip
 
-## Prepare your hardware
+### Prepare your hardware
 
 Hook up the hardware to your computer.
 
@@ -136,7 +136,7 @@ You need this hardware:
 * DevKit board
 * Micro-USB cable
 
-![Required hardware](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/hardware.jpg)
+  <img src="imgs/mxchip/mxchip.png">
 
 To connect the DevKit to your computer:
 
@@ -144,7 +144,7 @@ To connect the DevKit to your computer:
 2. Connect the Micro-USB end to the DevKit.
 3. The green LED for power confirms the connection.
 
-![Hardware connections](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/connect.jpg)
+  <img src="imgs/mxchip/connect-mxchip.png">
 
 ## Configure Wi-Fi
 
@@ -154,19 +154,19 @@ IoT projects rely on internet connectivity. Use the following instructions to co
 
 Hold down button B, push and release the reset button, and then release button B. Your DevKit enters AP mode for configuring Wi-Fi. The screen displays the service set identifier (SSID) of the DevKit and the configuration portal IP address.
 
-<img src="imgs/mxchip/wifi-ap.png">
+  <img src="imgs/mxchip/wifi-ap.png">
 
 ### Connect to DevKit AP
 
 Now, use another Wi-Fi enabled device (computer or mobile phone) to connect to the DevKit SSID (highlighted in the previous image). Leave the password empty.
 
-<img src="imgs/mxchip/connect-ssid.png">
+  <img src="imgs/mxchip/connect-ssid.png">
 
 ### Configure Wi-Fi for the DevKit
 
 Open the IP address shown on the DevKit screen on your computer or mobile phone browser, select the Wi-Fi network that you want the DevKit to connect to, and then type the password. Select **Connect**.
 
-<img src="imgs/mxchip/wifi-portal.png">
+  <img src="imgs/mxchip/wifi-portal.png">
 
 When the connection succeeds, the DevKit reboots in a few seconds. You then see the Wi-Fi name and IP address on the screen:
 
@@ -211,7 +211,6 @@ We encourage you to use the installation package to prepare the development envi
 
 The .zip file that you download contains all the necessary tools and packages for DevKit development.
 
-> [!div class="button"]
 [Download](https://aka.ms/devkit/prod/installpackage/latest)
 
 The .zip file contains the following tools and packages. If you already have some components installed, the script will detect and skip them.
@@ -228,10 +227,12 @@ The .zip file contains the following tools and packages. If you already have som
 
 In Windows File Explorer, locate the .zip file and extract it. Find `install.cmd`, right-click it, and select **Run as administrator**.
 
+  <img src="imgs/mxchip/install-cmd.png">
 ![File Explorer](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/run-admin.png)
 
 During installation, you see the progress of each tool or package.
 
+  <img src="imgs/mxchip/installing.png">
 ![Installation progress](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/install.png)
 
 > [!NOTE] 
