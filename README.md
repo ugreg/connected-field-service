@@ -154,13 +154,13 @@ IoT projects rely on internet connectivity. Use the following instructions to co
 
 Hold down button B, push and release the reset button, and then release button B. Your DevKit enters AP mode for configuring Wi-Fi. The screen displays the service set identifier (SSID) of the DevKit and the configuration portal IP address.
 
-![Reset button, button B, and SSID](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/wifi-ap.jpg)
+<img src="imgs/mxchip/wifi-ap.png">
 
 ### Connect to DevKit AP
 
 Now, use another Wi-Fi enabled device (computer or mobile phone) to connect to the DevKit SSID (highlighted in the previous image). Leave the password empty.
 
-![Network info and Connect button](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/connect-ssid.png)
+<img src="imgs/mxchip/connect-ssid.png">
 
 ### Configure Wi-Fi for the DevKit
 
