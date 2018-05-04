@@ -1,5 +1,5 @@
 
-<img src="imgs/md/build-apps.png">
+<img src="imgs/md/cfs.png">
 
 # Dynamics 365 Connected Field Service
 ---
@@ -172,10 +172,10 @@ When the connection succeeds, the DevKit reboots in a few seconds. You then see 
 
 ![Wi-Fi name and IP address](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/wifi-ip.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > The IP address displayed in the photo might not match the actual IP address assigned and displayed on the DevKit screen. This is normal, because Wi-Fi uses DHCP to dynamically assign IPs.
 
-After Wi-Fi is configured, your credentials will persist on the device for that connection, even if the device is unplugged. For example, if you configure the DevKit for Wi-Fi in your home and then take the DevKit to the office, you will need to reconfigure AP mode (starting at the step in the "Enter AP Mode" section) to connect the DevKit to your office Wi-Fi. 
+After Wi-Fi is configured, your credentials will persist on the device for that connection, even if the device is unplugged. For example, if you configure the DevKit for Wi-Fi in your home and then take the DevKit to the office, you will need to reconfigure AP mode (starting at the step in the "Enter AP Mode" section) to connect the DevKit to your office Wi-Fi.
 
 ## Start using the DevKit
 
@@ -183,14 +183,14 @@ The default app running on the DevKit checks the latest version of the firmware 
 
 ### Upgrade to the latest firmware
 
-> [!NOTE] 
+> [!NOTE]
 > Since v1.1, DevKit enables ST-SAFE in bootloader. You need to upgrade firmware if you are running under v1.1 in order to make it work probably.
 
 If you need a firmware upgrade, the screen will show the current and latest firmware versions. To upgrade, follow the [Upgrade firmware](https://microsoft.github.io/azure-iot-developer-kit/docs/firmware-upgrading/) guide.
 
 ![Display of current and latest firmware versions](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/firmware.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > This is a one-time effort. After you start developing on the DevKit and upload your app, the latest firmware will come with your app.
 
 ### Test various sensors
@@ -235,7 +235,7 @@ During installation, you see the progress of each tool or package.
   <img src="imgs/mxchip/installing.png">
 ![Installation progress](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/install.png)
 
-> [!NOTE] 
+> [!NOTE]
 > Depending on your environment, sometimes you will get failure when installing Arduino IDE. In this case, you may try [install Arduino IDE individually](https://microsoft.github.io/azure-iot-developer-kit/docs/installation/#windows) and run install.cmd again. Otherwise, please follow the [manual steps](https://microsoft.github.io/azure-iot-developer-kit/docs/installation/#windows) to install all necessary tools and packages.
 
 #### Install drivers
@@ -246,7 +246,7 @@ The VS Code for Arduino extension relies on the Arduino IDE. If this is the firs
 
 Installation should take around 10 minutes, depending on your internet speed. After the installation is complete, you should see Visual Studio Code and Arduino IDE shortcuts on your desktop.
 
-> [!NOTE] 
+> [!NOTE]
 > Occasionally, when you start VS Code, you're prompted with an error that it cannot find the Arduino IDE or related board package. To solve it, close VS Code and restart the Arduino IDE. VS Code should then locate the Arduino IDE path correctly.
 
 ### macOS
@@ -255,7 +255,7 @@ We encourage you to use one-click installation experience to prepare the develop
 
 #### Install Homebrew
 
-> [!NOTE] 
+> [!NOTE]
 > If you have installed Homebrew, you can skip this step.
 
 Follow the [Homebrew installation instructions](https://docs.brew.sh/Installation.html) to install it.
@@ -290,7 +290,7 @@ Launch Terminal app, locate the folder you extract .zip file and run:
 
 ![macOS install](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/mac-install-sh.png)
 
-> [!NOTE] 
+> [!NOTE]
 > If you meet Homebrew permission error, run `brew doctor` to get it fixed. Check [FAQ](https://microsoft.github.io/azure-iot-developer-kit/docs/faq/#homebrew-permission-error-on-macos) for more details.
 
 You now have all the necessary tools and packages installed for macOS.
@@ -304,7 +304,7 @@ Make sure your DevKit is not connected. Start VS Code first and connect the DevK
 
 ![Introduction page](media/iot-hub-arduino-devkit-az3166-get-started/mini-solution/vscode_start.png)
 
-> [!NOTE] 
+> [!NOTE]
 > Occasionally, when you start VS Code, you're prompted with an error that it cannot find the Arduino IDE or related board package. Close VS Code and restart the Arduino IDE. VS Code should then locate the Arduino IDE path correctly.
 
 
@@ -339,7 +339,7 @@ Then VS Code starts verifying and uploading the Arduino sketch:
 
 The DevKit reboots and starts running the code.
 
-> [!NOTE] 
+> [!NOTE]
 > Occasionally, you get error "Error: AZ3166: Unknown package". This is due to the board package index is not refreshed. Check this [FAQ steps](https://microsoft.github.io/azure-iot-developer-kit/docs/faq/) to solve it.
 
 ### macOS
@@ -356,7 +356,7 @@ Then VS Code starts verifying and uploading the Arduino sketch:
 
 The DevKit reboots and starts running the code.
 
-> [!NOTE] 
+> [!NOTE]
 > Occasionally, you get error "Error: AZ3166: Unknown package". This is due to the board package index is not refreshed. Check this [FAQ steps](https://microsoft.github.io/azure-iot-developer-kit/docs/faq/) to solve it.
 
 
