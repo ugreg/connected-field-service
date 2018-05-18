@@ -12,7 +12,7 @@ All docs are found in the **Connected Field Service.pdf** file.
 
 In the Labs folder you'll find 4 exercises walking through how to deploy CFS.
 
-Lab 5 details how to connect and IoT device to CFS.
+**IN PROGRESS** Lab 5 details how to connect and IoT device to CFS and is **IN PROGRESS**.
 
 # References
 - Connected Field Service
