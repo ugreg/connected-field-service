@@ -1,5 +1,9 @@
 
-<img src="imgs/md/cfs.png">
+## Azure IoT Hub
+<img src="imgs/md/iot-hub.png">
+
+## Azure IoT Central
+<img src="imgs/md/iot-central.png">
 
 # Dynamics 365 Connected Field Service
 The goal of this repo is to give you everything you need to set up a Connected Field Service ( CFS ) Environment. using both the first timer recommended [CFS Add-on](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0) and more advanced customizations deploying the above architecture from scratch on Azure and Dynamics.
