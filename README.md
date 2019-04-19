@@ -1,20 +1,20 @@
 # Dynamics 365 Connected Field Service
 The goal of this repo is to give you everything you need to set up a Connected Field Service ( CFS ) Environment.
 
-# Getting Started with Enrionments
+## Getting Started with Enrionments
 
 In the Guides folder you'll find many resources to get you going.
 
-# Physical iot device prototyping
+## Physical iot device prototyping
 
 Find your target device in [firmware code samples](https://github.com/gregdegruy/iot-central-firmware) that I contribute too and you should too! Please submit a PR for any supported devices or bugs you find.
 
-# Example CFS Implementations
+## Example CFS Implementations
 
-## Azure IoT Hub
+### Azure IoT Hub
 <img src="imgs/md/iot-hub.png">
 
-## Azure IoT Central
+### Azure IoT Central
 <img src="imgs/md/iot-central.png">
 
 # References
