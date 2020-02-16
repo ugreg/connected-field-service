@@ -1,0 +1,11 @@
+// this is sent over d2c message watch using the Azure IoT Hub Devices monitor in VS Code... very missleading
+{
+  "body": {
+    "messageId": 86,
+    "temperature": 125.0,
+    "humidity": 43.79999923706055
+  },
+  "applicationProperties": {
+    "temperatureAlert": "false"
+  }
+}
