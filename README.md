@@ -3,12 +3,9 @@
 # Connected Field Service
 
 | <img src="img/poke.svg" height="16"> [![License: MIT](https://img.shields.io/badge/License-MIT-grey.svg)](https://opensource.org/licenses/MIT) |
-| :- |
 
 
-| <h1 align="center">Goal</h1><p align="center"><img src="img/p1.png" height="24"></p> |
-| :------------------------ |
-| <h3>The goal of this repo is to give you everything you need to set up a Connected Field Service ( CFS ) Environment.</h3> |
+The goal of this repo is to give you everything you need to set up a Connected Field Service ( CFS ) Environment.
 
 ## Getting Started with Environments
 
