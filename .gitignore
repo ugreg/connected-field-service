@@ -1,1 +1,11 @@
 *.bin
+az-stream-analytics /*
+az-stream-analytics /asa-1.asaql
+az-stream-analytics /asa-2.asasql
+az-stream-analytics /asa-3.asasql
+az-stream-analytics /asa-default.asasql
+az-stream-analytics /devicerules.json
+az-stream-analytics /iotstream-fake-d2c.json
+az-stream-analytics /iotstream-real-d2c.json
+az-stream-analytics /readMessage-default.cpp
+az-stream-analytics /readMessage.cpp

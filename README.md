@@ -8,7 +8,7 @@
 
 | <h1 align="center">Goal</h1><p align="center"><img src="img/p1.png" height="24"></p> |
 | :------------------------ |
-| The goal of this repo is to give you everything you need to set up a Connected Field Service ( CFS ) Environment. |
+| <h3>The goal of this repo is to give you everything you need to set up a Connected Field Service ( CFS ) Environment.</h3> |
 
 ## Getting Started with Environments
 
